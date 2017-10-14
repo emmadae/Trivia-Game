@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- Head of Website -->
+	<head>
+	<!-- My CSS Stylesheet Links -->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+		<title> Totally Trivia </title>
+
+	<!-- Google Font Links -->
+		<link href="https://fonts.googleapis.com/css?family=Shrikhand|Raleway" rel="stylesheet">
+
+	<!-- JavaScript & jQuery links -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/script.js"></script> 
+	</head>
+
+<!-- Body of Website -->
+	<body>
+
+	<!-- Trivia Intro Page -->
+		<section class="start-slides">
+			<h1> TOTALLY TRIVIA </h1> 
+			<p> <span> HOW TO PLAY: </span> <br> Welcome to Totally Trivia! This is a 10 question multiple choice answer quiz that has questions on a variety of topics, including everything from star constellations to underwater mail boxes. Test your knowledge and have fun along the way! Ready to start the trivia game? </p>
+			<br>
+			<button id="start-btn" type="button"> LETS DO THIS! </button>
+
+			
+		</section>
+
+	<!-- Slide 1 (Question & Answer) -->
+		<section class="slides-1">
+			<div class="question" id="question-1">
+				<img width="250px" src="assets/images/nile-crocodile.jpg" alt="Nile Crocodile">
+				<h3> 1) The Nile crocodile can hold its breath underwater for up to _______ while waiting for prey. </h3>
+				<div class="choices">
+					<input type="radio" name="q1" class="incorrect"> a) 30 Minuted <br>
+					<input type="radio" name="q1" class="correct"> b) 2 Hours <br>
+					<input type="radio" name="q1" class="incorrect"> c) 5 Hours <br>
+					<input type="radio" name="q1" class="incorrect"> d) 10 Minutes <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-1" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-1">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> b) 2 Hours </h3>
+				<p> The Nile crocodile (Crocodylus niloticus) is an African crocodile, the largest freshwater predator in Africa, and may be considered the second largest extant reptile in the world, after the saltwater crocodile. Nile crocodiles normally dive for only a few minutes at a time, but can swim underwater for up to 30 minutes if threatened, and if they remain fully inactive they can hold their breath for up to 2 hours (which, as aforementioned, is due to the high levels of lactic acid in their blood).</p>
+				<button class="next-btn" id="next-1" type="button"> NEXT </button>
+			</div>
+		</section>
+
+
+	<!-- Slide 2 (Question & Answer) -->
+		<section class="slides-2">
+			<div class="question" id="question-2">
+				<img width="250px" src="assets/images/largest-wave.jpg" alt=" Largest Wave Ever Surfed">
+				<h3> 2) Garrett McNamara holds the official record for the highest wave ever surfed in history. How tall was the wave? </h3>
+				<div class="choices">
+					<input type="radio" name="q2" class="correct"> a) 78 Feet <br>
+					<input type="radio" name="q2" class="incorrect"> b) 50 Feet <br>
+					<input type="radio" name="q2" class="incorrect"> c) 200 Feet <br>
+					<input type="radio" name="q2" class="incorrect"> d) 100 Feet <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-2" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-2">
+				<h2 class="correct-answer" > THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> a) 78 Feet </h3>
+				<p> According to Guinness World Records, Garrett McNamara (towed by Andrew Cotton) surfed the tallest recorded wave in history at at an astounding 78 feet (23 meters) in 2011. The term ‘towed’ means that “the surfer is brought to the wave, enabling them to catch waves that would otherwise be too strong to be caught by paddling in.” McNamara's official record might not stand for long, others have been rumored to have surfed waves reaching a height of 100 feet, however until the rumors have been confirmed McNamara remains the champ. </p>
+				<button class="next-btn" id="next-2" type="button"> NEXT </button>
+			</div>
+		</section>
+
+
+	<!-- Slide 3 (Question & Answer) -->
+		<section class="slides-3">
+			<div class="question" id="question-3">
+				<img width="150px" src="assets/images/orions-belt.jpg" alt="Star Constellation">
+				<h3> 3) What is the name of this star constellation? </h3>
+				<div class="choices">
+					<input type="radio" name="q3" class="incorrect"> a) The Big Dipper <br>
+					<input type="radio" name="q3" class="incorrect"> b) Scorpius <br>
+					<input type="radio" name="q3" class="incorrect"> c) Ursa Major <br>
+					<input type="radio" name="q3" class="correct"> d) Orion's Belt <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-3" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-3">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> d) Orion's Belt </h3>
+				<p> Orion’s Belt is one of the most familiar asterisms in the night sky, along with the Big Dipper and the Southern Cross. It is formed by three massive, bright stars located in our galaxy, in the direction of the constellation Orion, the Hunter: Alnilam, Alnitak and Mintaka. Two of the three stars are supergiants. </p>
+				<button class="next-btn" id="next-3" type="button"> NEXT </button>
+			</div>
+		</section>
+
+
+	<!-- Slide 4 (Question & Answer) -->
+		<section class="slides-4">
+			<div class="question" id="question-4">
+				<img width="250px" src="assets/images/post-box.jpg" alt="Deepest Post Box in the World.">
+				<h3> 4) In what body of water is the deepest postbox located? </h3>
+				<div class="choices">
+					<input type="radio" name="q4" class="incorrect"> a) The Gulf of Mexico off the coast of Texas <br>
+					<input type="radio" name="q4" class="correct"> b) Susami Bay off the coast of Japan <br>
+					<input type="radio" name="q4" class="incorrect"> c) The Aegean Sea off the coast of Greece <br>
+					<input type="radio" name="q4" class="incorrect"> d) The Bay of Bengal off the coast of India <br>
+				</div>
+				<br><button class="submit-btn" id="submit-4" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-4">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> b) Susami Bay off the coast of Japan </h3>
+				<p> The world’s deepest postbox is just off the coast of Susami Bay in Japan. It is 10 metres under water, and is used by divers to send waterproof postcards to their friends and family. A clerk checks the mailbox regularly to ensure all the postcards get to their destination. </p>
+				<button class="next-btn" id="next-4" type="button"> NEXT </button>
+			</div>
+			
+		</section>
+
+
+	<!-- Slide 5 (Question & Answer) -->
+		<section class="slides-5">
+			<div class="question" id="question-5">
+				<img width="250px" src="assets/images/poseidon.jpg" alt="Greek God Poseidon">
+				<h3> 5) Which Greek God is portrayed in the image above? </h3>
+				<div class="choices">
+					<input type="radio" name="q5" class="correct"> a) Posidon <br>
+					<input type="radio" name="q5" class="incorrect"> b) Athena <br>
+					<input type="radio" name="q5" class="incorrect"> c) Zeus <br>
+					<input type="radio" name="q5" class="incorrect"> d) Apollo <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-5" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-5">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> a) Posidon </h3>
+				<p> Poseidon was god of the sea, earthquakes, storms, and horses and is considered one of the most bad-tempered, moody and greedy Olympian gods. He was known to be vengeful when insulted. </p>
+				<button class="next-btn" id="next-5" type="button"> NEXT </button>
+			</div>
+			
+		</section>
+
+
+	<!-- Slide 6 (Question & Answer) -->
+		<section class="slides-6">
+			<div class="question" id="question-6">
+				<img width="220px" src="assets/images/world-map.jpg" alt="World Map.">
+				<h3> 6) There are three countries in the world that are completely landlocked by only one other country. What are those three countries? </h3>
+				<div class="choices">
+					<input type="radio" name="q6" class="incorrect"> a) Madagascar, Portugal, and Egypt<br>
+					<input type="radio" name="q6" class="incorrect"> b) New Jersey, Mongolia, and Russia <br>
+					<input type="radio" name="q6" class="correct"> c) Lesotho, San Marino, and Vatican City <br>
+					<input type="radio" name="q6" class="incorrect"> d) French Guiana, Swaziland, and Austria <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-6" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-6">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> c) Lesotho, San Marino, and Vatican City </h3>
+				<p> Lesotho, San Marino, and Vatican City are the only countries to be surrounded by just one other country. Lesotho is landlocked within South Africa while San Marino and Vatican City are surrounded by Italy. </p>
+				<button class="next-btn" id="next-6" type="button"> NEXT </button>
+			</div>
+		</section>
+
+	
+	<!-- Slide 7 (Question & Answer) -->
+		<section class="slides-7">
+			<div class="question" id="question-7">
+				<img width="250px" src="assets/images/flamingos.jpg" alt="Flamingos">
+				<h3> 7) There are more plastic flamigos in the USA than there are real flamingos. </h3>
+				<div class="choices">
+					<input type="radio" name="q7" class="correct"> a) True <br>
+					<input type="radio" name="q7" class="incorrect"> b) False <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-7" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-7">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> a) True </h3>
+				<p> Did you know there are more plastic flamingos in the USA than real ones? Plastic flamingos are widely considered to be the stereotypical example of lawn kitsch – the American’s answer to garden dwarfs. Designed in 1957 by Don Featherstone while working for Union Products, the pink flamingo has gone from a piece of Florida exotica to a symbol of trash culture. Featherstone sculpted his 3-D flamingos from clay, working from photos of the birds in National Geographic. </p>
+				<button class="next-btn" id="next-7" type="button"> NEXT </button>
+			</div>
+		</section>
+
+
+	<!-- Slide 8 (Question & Answer) -->
+		<section class="slides-8">
+			<div class="question" id="question-8">
+				<img width="250px" src="assets/images/languages.jpg" alt="World Languages">
+				<h3> 8) How many official living languages are there in the world? </h3>
+				<div class="choices">
+					<input type="radio" name="q8" class="incorrect"> a) 78 Living Languages <br>
+					<input type="radio" name="q8" class="incorrect"> b) 14396 Living Languages <br>
+					<input type="radio" name="q8" class="incorrect"> c) 2930 Living Languages <br>
+					<input type="radio" name="q8" class="correct"> d) 6909 Living Languages <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-8" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-8">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> d) 6909 Living Languages </h3>
+				<p> The Ethnologue catalogue of world languages, which is one of the best linguistic resources, currently lists 6909 living languages. About 6% of them have more than a million speakers each, and collectively account for 94% of the world population. </p>
+				<button class="next-btn" id="next-8" type="button"> NEXT </button>
+			</div>
+			
+		</section>
+
+
+	<!-- Slide 9 (Question & Answer) -->
+		<section class="slides-9">
+			<div class="question" id="question-9">
+				<img width="150px" src="assets/images/bananas.jpg" alt="Bananas">
+				<h3> 9) The banana plant is the largest ___________ flowering plant. </h3>
+				<div class="choices">
+					<input type="radio" name="q9" class="incorrect"> a) Conifer <br>
+					<input type="radio" name="q9" class="correct"> b) Herbaceous <br>
+					<input type="radio" name="q9" class="incorrect"> c) Piperaceae <br>
+					<input type="radio" name="q9" class="incorrect"> d) Embryophyta <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-9" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-9">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> b) Herbaceous </h3>
+				<p> The banana plant is the largest herbaceous flowering plant. All the above-ground parts of a banana plant grow from a structure usually called a "corm". Plants are normally tall and fairly sturdy, and are often mistaken for trees, but what appears to be a trunk is actually a "false stem" or pseudostem. </p>
+				<button class="next-btn" id="next-9" type="button"> NEXT </button>
+			</div>
+		</section>
+
+
+	<!-- Slide 10 (Question & Answer) -->
+		<section class="slides-10">
+			<div class="question" id="question-10">
+				<img width="210px" src="assets/images/cuy.jpg" alt="Fried Guinea Pig">
+				<h3> 10) Fried Guinea Pig, also more commonly known as _______. Is a delicacy in countries such as Ecuador, Bolivia and or Peru. </h3>
+				<div class="choices">
+					<input type="radio" name="q10" class="correct"> a) Cuy <br>
+					<input type="radio" name="q10" class="incorrect"> b) Surstromming <br>
+					<input type="radio" name="q10" class="incorrect"> c) Birds Nest Soup <br>
+					<input type="radio" name="q10" class="incorrect"> d) Fried Pig <br>
+				</div>
+				<br> <button class="submit-btn" id="submit-10" type="button"> SUBMIT </button>
+			</div>
+
+			<div class="answer" id="answer-10">
+				<h2 class="correct-answer"> THE CORRECT ANSWER: </h3>
+				<span class="users-answer"></span>
+				<h3> a) Cuy </h3>
+				<p> Guinea pig is Ecuador is one of the traditional foods you should try while visiting Ecuador, Bolivia or Peru. It is more commonly known as cuy (kew-y) in the indigenous language of Kichwa, because of the high-pitched bird-like sound the animal makes. </p>
+				<button class="next-btn" id="next-10" type="button"> NEXT </button>
+			</div>
+		</section>
+
+	<!-- Trivia Intro Page -->
+		<section class="final-slide">
+			<h1> TOTALLY TRIVIA SCORE </h1> 
+			<br>
+			<h4> TOTAL CORRECT: <span id="correct"> </span></h4>
+			<h4> TOTAL INCORRECT: <span id="incorrect"> </span></h4>
+	
+		</section>
+
+
+
+	</body>
+
+</html>
+

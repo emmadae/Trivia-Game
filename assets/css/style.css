@@ -1,0 +1,152 @@
+/* General Background Page Sets */
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* Trivia Intro Page */
+.start-slides{
+	background: white;
+	margin:10% 10%;
+	padding:.5% 4% 4% 4%;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+}
+
+.start-slides h1{
+	font-size: 56px;
+	color: #338f7d;
+	font-family:"Shrikhand", sans-serif;
+	margin-bottom:1%;
+}
+
+.start-slides p{
+	margin-top:0;
+	color:#636261;
+}
+
+.start-slides p span{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+/* Start Game Start Button */
+#start-btn{
+	background: none;
+	color:#338f7d;
+	border: 1px solid #338f7d;
+	border-radius: 5px;
+	padding:10px 15px;
+	font-size: 18px;
+}
+
+#start-btn:hover{
+	color:white;
+	background:#338f7d;
+
+}
+
+/* Universal "Question" Slide Settings */
+.question{
+	background: white;
+	margin:.5% 10% .5% 10%;
+	padding:4% 4% 4% 4%;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	color:#636261;
+
+}
+
+/* Universal "Answer" Slide Settings */
+.answer{
+	background: white;
+	margin:10% 10%;
+	padding:1% 4% 4% 4%;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	color:#636261;
+}
+
+/* Universal "Image" Slide Settings */
+.question img{
+	border:1px solid #e0dedc;
+	padding:10px 10px;
+}
+
+/* Universal "Radial Choices" Slide Settings */
+.choices{
+	margin-left: 10%;
+	text-align:left;
+}
+
+
+/* Universal "Submit Button" & "Next Button" Slide Settings */
+.submit-btn, .next-btn{
+	background: none;
+	color:#338f7d;
+	border: 1px solid #338f7d;
+	border-radius: 5px;
+	padding:10px 15px;
+	font-size: 18px;
+}
+
+.submit-btn:hover, .next-btn:hover{
+	color:white;
+	background:#338f7d;
+
+}
+
+/* Universal Display None Slide Settings */
+#question-1, #question-2, #question-3, #question-4, #question-5, #question-6, #question-7, #question-8, #question-9, #question-10{
+	display: none;
+	margin:3% 10%;
+}
+
+#answer-1, #answer-2, #answer-3, #answer-4, #answer-5, #answer-6, #answer-7, #answer-8, #answer-9, #answer-10{
+	display: none;
+	margin:8% 10%;
+}
+
+
+/* Trivia Final Page (Display Settings None) & Score */
+.final-slide{
+	display: none;
+	background: white;
+	margin:10% 10%;
+	padding:.5% 4% 4% 4%;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+}
+
+.final-slide {
+	font-size: 22px;
+	color: #636261;
+	font-family:"Raleway", sans-serif;
+}
+
+.final-slide h1{
+	font-size: 56px;
+	color: #338f7d;
+	font-family:"Shrikhand", sans-serif;
+	margin-bottom:1%;
+}
+
+
+/* Correct vs. Incorrect Color Settings */
+.users-answer .true{
+	color:green;
+}
+
+.users-answer .false{
+	color:red;
+}
+
+
+
+
