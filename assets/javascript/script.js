@@ -121,8 +121,6 @@ $(document).ready(function() {
 
 
 
-
-
 	// Working Code For Checking & Loging Answers
 	var correct = 0;
 	var incorrect = 0;
@@ -149,11 +147,6 @@ $(document).ready(function() {
 	$('input[type="radio"]').prop('checked', false);
 
 	});
-
-
-
-
-
 
 
 });
